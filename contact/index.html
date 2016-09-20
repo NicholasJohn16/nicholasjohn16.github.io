@@ -1,0 +1,131 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>NicholasJohn16 | Contact</title>
+
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+
+	<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-custom sticky navbar-abs" id="nav" role="navigation">
+		<div class="container">
+			
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			   		<span class="sr-only">Toggle navigation</span>
+					<i class="ion-navicon"></i>
+				</button>
+				<a class="navbar-brand logo" href="/">
+					<svg id="logo" height="32" width="32" viewBox="0 0 512 512">
+						<defs>
+							<pattern id="logo-background" width="1" height="1" viewBox="0 0 512 512">
+								<image xlink:href="/assets/img/logo-background.png" width="512" height="512"></image>
+							</pattern>
+						</defs>
+  						<path d="M0 64 q0 -64 64 -64 h93 l198 256 v-192 q0 -64 64 -64 h29 q64 0 64 64 v384 q0 64 -64 64 h-93 l-198 -257 v193 q0 64 -64 64 h-29 q-64 0 -64 -64 z" />
+					</svg>
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/applications">Applications</a></li>
+					<li><a href="/communities">Communities</a></li>
+					<li><a href="/development">Development</a></li>
+					<li class="hidden-xs"><a href="/contact" class="btn btn-default btn-sm navbar-btn">Contact</a></li>
+					<li class="visible-xs-block"><a href="/contact">Contact</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<section class="home bg-4">
+		<div class="container">
+			<div class="col-sm-12 text-center">
+				<div class="home-wrapper">
+					<h1>Contact</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+	
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<p class="text-center con_sub_text">Have questions or not sure where to get started? Feel free to contact us and we'll be happy to help. We can discuss your needs and goals and come up with with a tailored plan.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<form role="form" name="contact-form" id="contact-form" method="post" class="form-main">
+				
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="form-group">
+									<label for="name">Name</label>
+									<input type="text" name="name" class="form-control" placeholder="John Smith" required>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<label for="email">E-mail</label>
+									<input type="email" name="email" class="form-control" placeholder="john@example.com" required>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+									<label for="subject">Subject</label>
+									<input type="text" name="subject" class="form-control" placeholder="My Website" required>
+								</div>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="form-group">
+									<label for="message">Message</label>
+									<textarea name="message" rows="5" class="form-control" required></textarea>
+								</div>
+							</div>
+						</div>
+		
+						<div class="row">
+							<div class="col-sm-2">
+								<button class="btn btn-success" type="submit" id="send">Send</button>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="hidden alert" id="form-alert" role="alert"></div>
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<footer class="section bg-gray footer">
+		<div class="container">			
+			<div class="row">
+				<div class="col-sm-12 footer-alt">
+					<p class="pull-left">NicholasJohn16</p>
+					<p class="pull-right">&copy; 2015</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="/assets/site.js"></script>
+</body>
+</html>
