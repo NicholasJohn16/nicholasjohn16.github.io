@@ -574,11 +574,12 @@ jQuery(function ($) {
             
             var self = this;
             $.ajax({
+                url: 'https://formspree.io/nicholasjohn16@gmail.com',
                 type: "POST",
-                url: '/contact/send.php',
                 data: this.form.serialize(),
+                dataType: 'json',
                 timeout: 6000,
-                error: function(request,error) {
+                error: function(request, error) {
                     self.alert.html("<strong>Oops</strong>, it looks like there was an error and your e-mail didn't send!");
                     self.alert.addClass('alert-danger').removeClass('hidden');
                 },
